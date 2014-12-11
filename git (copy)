@@ -1,0 +1,30 @@
+git config --global user.name "Brian Crafton"
+git config --global user.email "craftonbrian@gmail.com"
+git init
+git remote add origin https://github.com/craftonb/rails-girls.git
+^ for the first time. 
+git add .
+git commit -m 'first commit'
+git push origin master
+
+
+
+so origin is not always the name, can use anything.
+
+
+after the intial commit u can keep adding stuff by doing:
+
+git add .
+
+git commit -m "type your commit message here"
+
+git push origin master
+____________________________________________________________________
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/craftonb/d.git
+git push -u origin master
