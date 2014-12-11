@@ -1,0 +1,15 @@
+group by: groups objects together by a field. so if 2 instances of "john" then will group john together.
+
+order by: orders the objects by a field. 
+
+so if u group 2 eleemnts together it does nothing besides eliminate one of them unless u are using a sum command in which case it will sum 2 fields together.
+
+SQL> SELECT NAME, SUM(SALARY) FROM CUSTOMERS
+     GROUP BY NAME;
+
+will sum 2 instances of johns salary
+
+SQL> SELECT NAME FROM CUSTOMERS
+     GROUP BY NAME;
+
+will just eliminate the second instance of jon.
